@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "build": "webpack"
+    },
     "dependencies": {
         "stimulus": "^1.1.1",
         "webpack": "^4.31.0",
