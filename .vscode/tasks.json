@@ -5,7 +5,7 @@
             "label": "build",
             "type": "shell",
             "command": "cmd",
-            "args": ["/C", "docker rmi gcrcpp && docker build -t gcrcpp . && docker run --rm --name gcrcpp -i -p 3000:3000 -t gcrcpp"],
+            "args": ["/C", "docker rmi gcrcpp && docker build -t gcrcpp . && docker run --rm --name gcrcpp -i -p 3000:8080 -t gcrcpp"],
         }
     ]
 }
