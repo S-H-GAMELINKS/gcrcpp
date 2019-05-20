@@ -1,3 +1,4 @@
 .vscode/ipch
 a.out
 static/node_modules
+static/index.js
