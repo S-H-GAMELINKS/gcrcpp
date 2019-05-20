@@ -5,11 +5,11 @@ import 'bootstrap-umi/dist/css/bootstrap.css';
 
 Vue.use(Bootstrap);
 
+import Header from '../components/layouts/Header.vue';
+
 const app = new Vue({
     el: ".app",
-    data: function() {
-        return {
-            message: "Hello C++ on Google Cloud Run!"
-        }
+    components: {
+        'nav-bar': Header
     }
 });
